@@ -10,7 +10,7 @@ import fitz  # PyMuPDF
 from datetime import datetime
 
 # --- SETUP PAGE CONFIG ---
-st.set_page_config(page_title="PansGPT Manager", page_icon="💊", layout="wide")
+st.set_page_config(page_title="PansGPT Manager", page_icon="🎓", layout="wide")
 
 # --- HELPER: INSTALL PACKAGES ---
 def install_package(package_name):
@@ -181,3 +181,4 @@ with col2:
                 if c2.button("🗑️", key=d['id']):
                     delete_document(d['id'])
                     st.rerun()
+
